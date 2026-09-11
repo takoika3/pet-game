@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #e8f7ff;
+  margin: 0;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+.pet {
+  font-size: 100px;
+  margin: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
