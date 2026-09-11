@@ -20,40 +20,6 @@
   <button onclick="play()">🎾 あそぶ</button>
   <button onclick="sleepPet()">😴 ねる</button>
 
-  <script>
-    let love = 50;
-    let energy = 80;
-    let level = 1;
-
-    function feed() {
-      love += 5;
-      energy -= 5;
-      update();
-    }
-
-    function play() {
-      if (energy >= 10) {
-        love += 10;
-        energy -= 10;
-        update();
-      }
-    }
-
-    function sleepPet() {
-      energy += 20;
-
-      if (energy > 100) {
-        energy = 100;
-      }
-
-      update();
-    }
-
-    function update() {
-      document.getElementById("love").textContent = love;
-      document.getElementById("energy").textContent = energy;
-      document.getElementById("level").textContent = level;
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
